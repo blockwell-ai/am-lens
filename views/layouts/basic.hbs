@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        {{#if title}}
+            {{title}}
+        {{else}}
+            Lens
+        {{/if}}
+    </title>
+    {{#block "head"}}{{/block}}
+
+    {{#block "scripts"}}{{/block}}
+</head>
+<body>
+<div class="main-body">
+    <div class="content">
+        {{#block "body"}}{{/block}}
+    </div>
+</div>
+</body>
+</html>

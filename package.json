@@ -1,0 +1,43 @@
+{
+    "name": "am-lens",
+    "version": "1.0.7",
+    "private": true,
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "lens": "./cli.js"
+    },
+    "dependencies": {
+        "axios": "0.18.0",
+        "bluebird": "3.5.2",
+        "fs-extra": "7.0.0",
+        "handlebars": "4.0.12",
+        "handlebars-layouts": "3.1.4",
+        "handlebars-wax": "6.1.0",
+        "joi": "13.7.0",
+        "knex": "0.15.2",
+        "knex-migrate": "1.7.0",
+        "koa": "2.6.1",
+        "koa-bodyparser": "4.2.1",
+        "koa-flash-simple": "0.0.3",
+        "koa-session": "5.9.0",
+        "koa-session-knex-store": "1.1.2",
+        "koa-passport": "4.1.1",
+        "koa-router": "7.4.0",
+        "nconf": "0.10.0",
+        "nconf-yaml": "1.0.2",
+        "passport": "0.4.0",
+        "passport-local": "1.0.0",
+        "rambdax": "0.15.3",
+        "secure-password": "3.1.0",
+        "sqlite3": "4.0.3",
+        "verror": "1.10.0",
+        "winston": "3.1.0",
+        "commander": "2.19.0",
+        "inquirer": "6.2.0",
+        "bignumber.js": "7.2.1"
+    },
+    "devDependencies": {}
+}
