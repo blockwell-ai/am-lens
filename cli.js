@@ -34,7 +34,7 @@ program
 program
     .command('user <email>')
     .description('Creates a new user')
-    .option('-p, --password', 'Set password to this instead of asking for one')
+    .option('-p, --password <password>', 'Set password to this instead of asking for one')
     .action(async (email, cmd) => {
         let auth;
         if (strat.type === 'local') {
