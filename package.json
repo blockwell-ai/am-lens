@@ -26,7 +26,7 @@
         "koa-session-knex-store": "1.1.2",
         "koa-passport": "4.1.1",
         "koa-router": "7.4.0",
-        "nconf": "0.10.0",
+        "nconf": "0.11.4",
         "nconf-yaml": "1.0.2",
         "passport": "0.4.0",
         "passport-local": "1.0.0",
