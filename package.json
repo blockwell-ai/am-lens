@@ -17,7 +17,7 @@
         "handlebars-layouts": "3.1.4",
         "handlebars-wax": "6.1.0",
         "joi": "13.7.0",
-        "knex": "0.15.2",
+        "knex": "2.4.0",
         "knex-migrate": "1.7.0",
         "koa": "2.6.1",
         "koa-bodyparser": "4.2.1",
